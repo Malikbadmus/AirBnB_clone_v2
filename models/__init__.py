@@ -12,11 +12,7 @@ from models.review import Review
 from os import getenv
 
 
-<<<<<<< HEAD
-if getenv("HBNB_TYOE_STORAGE") == "db":
-=======
 if getenv("HBNB_TYPE_STORAGE") == "db":
->>>>>>> 0d34fe9b6c83ca8f6759dc55e53a0b11486157ef
     storage = DBStorage()
 else:
     storage = FileStorage()
